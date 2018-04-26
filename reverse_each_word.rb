@@ -6,6 +6,7 @@ def reverse_each_word (string)
     thing.reverse
   end
   
+  reversedWordArr.join(" ")
    
  
 end
