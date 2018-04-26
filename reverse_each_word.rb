@@ -2,7 +2,10 @@ def reverse_each_word (string)
   
   wordArr = string.split(" ")
   
-  word
+  wordArr.map do |thing|
+    thing.reverse
+  end
+  
    
  
 end
